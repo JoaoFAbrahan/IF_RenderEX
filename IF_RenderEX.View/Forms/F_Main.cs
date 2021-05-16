@@ -18,6 +18,11 @@ namespace IF_RenderEX.View
             InitializeComponent();
         }
 
+        /// Inicialização
+        private void F_Main_Load(object sender, EventArgs e)
+        {
+
+        }
 
 
         /// MOVIMENTAÇÃO, RESPONSIVIDADE E CONTROLADORES DA JANELA
@@ -71,6 +76,7 @@ namespace IF_RenderEX.View
         {
             Application.Exit();
         }
+
         private void btn_Maximize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;

@@ -301,6 +301,7 @@ namespace IF_RenderEX.View
             this.Name = "F_Main";
             this.Padding = new System.Windows.Forms.Padding(2);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.F_Main_Load);
             this.tlp_PanelMaster.ResumeLayout(false);
             this.pnl_MenuBar.ResumeLayout(false);
             this.pnl_MenuRigth.ResumeLayout(false);
