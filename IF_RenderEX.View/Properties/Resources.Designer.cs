@@ -83,9 +83,29 @@ namespace IF_RenderEX.View.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icon_Excluir {
+            get {
+                object obj = ResourceManager.GetObject("icon_Excluir", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_Exit {
             get {
                 object obj = ResourceManager.GetObject("icon_Exit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_LockedStats {
+            get {
+                object obj = ResourceManager.GetObject("icon_LockedStats", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -116,6 +136,16 @@ namespace IF_RenderEX.View.Properties {
         internal static System.Drawing.Bitmap icon_Normalize {
             get {
                 object obj = ResourceManager.GetObject("icon_Normalize", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_ViewStats {
+            get {
+                object obj = ResourceManager.GetObject("icon_ViewStats", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

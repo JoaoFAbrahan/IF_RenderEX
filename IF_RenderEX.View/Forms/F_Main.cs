@@ -21,7 +21,12 @@ namespace IF_RenderEX.View
         /// Inicialização
         private void F_Main_Load(object sender, EventArgs e)
         {
-
+            F_SceneOutliner form_SceneOutliner = new F_SceneOutliner();
+            form_SceneOutliner.TopLevel = false;
+            form_SceneOutliner.Dock = DockStyle.Fill;
+            this.pnl_SceneOutliner.Controls.Add(form_SceneOutliner);
+            this.pnl_SceneOutliner.Tag = form_SceneOutliner;
+            form_SceneOutliner.Show();
         }
 
 

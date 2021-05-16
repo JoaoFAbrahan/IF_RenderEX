@@ -120,7 +120,9 @@
   <ItemGroup>
     <None Include="EntryPoint\App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\icon_Excluir.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\CollapseToLeft.png" />
   </ItemGroup>
@@ -144,6 +146,12 @@
       <Project>{ba14b53d-63a6-48e8-a3d7-8af3a3e603de}</Project>
       <Name>IF_RenderEX.Controller</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_LockedStats.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_ViewStats.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

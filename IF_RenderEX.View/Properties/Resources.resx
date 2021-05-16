@@ -124,8 +124,14 @@
   <data name="icon_CollapseToRigth" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CollapseToRigth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icon_Excluir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_Excluir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icon_Exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_LockedStats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_LockedStats.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_Maximize" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Maximize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -135,5 +141,8 @@
   </data>
   <data name="icon_Normalize" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Normalize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_ViewStats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_ViewStats.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
